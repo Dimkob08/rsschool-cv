@@ -1,5 +1,5 @@
-_Этот текст будет наклонным (курсив)_
-_Этот текст будет наклонным (курсив)_
+#Kobel Dmytro
 
-**Этот текст будет жирным**
-**Этот текст будет жирным**
+**Kickboxing and boxing coach**
+
+_Honored Master of Sports of Ukraine in kickboxing WTKA_
