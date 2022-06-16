@@ -1,32 +1,47 @@
-body {
-    
-        justify-content: space-between;
+ *{
+    margin: 0;
+    padding: 0;
+}
+
+body{
     font-family: 'Montserrat', sans-serif;
     background-color: #aab7ca;
+    width: 100%;
 }
 
-.header{
-  padding: 10px 0;
-    background: #2F303A;
-    display: flex;
-        justify-content: space-between;
-}
-
-.head{
+header{
+    background-color: #2F303A;
+    width: 100%;
     
+}
+
+.head {
+    padding: 20px;   
+}
+
+.head-link{
+    margin-left: 25px;
+    display: flex;
+    /* justify-content: space-around; */
+    /* padding-left: 20px;  */
 }
 
 .link{
-    margin-bottom: 10px;
-color: #FFFFFF;
+    color: #FFFFFF;
+    margin-left: 10px;
 }
+
+ul{
+list-style: none;
+}
+
 .links {
+    
     margin-bottom: 10px;
     color: #000000;
 }
 
 .link-name{
-    margin-bottom: 10px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -34,18 +49,42 @@ color: #FFFFFF;
     color: #fff;
 }
 
+main>.block {
+    display: flex;
+    /* justify-content: space-around; */
+    /* align-content: space-around; */
+}
+
 .about{
+    display: flex;
+    justify-content: space-around;
     font-weight: 500;
     font-size: 44px;
     line-height: 60px;
     color: black;
-    display: flex;
-    flex-direction: row;
     width: 1200px;
-    margin-bottom: 10px;
+    margin: 20px 0;
 }
 .name {
-    margin-left: 30px;
+    ;
+}
+
+#about-myself,
+#contacts,
+#skills,
+#code,
+#courses,
+#projects,
+#education,
+#english {
+    width: 500px;
+}
+
+.block {
+    /* display: flex; */
+    justify-content: space-around;
+    width: 1200px;
+    margin-bottom: 20px;
 }
 
 h2{
@@ -53,27 +92,26 @@ h2{
     font-weight: 700;
     font-size: 24px;
     line-height: 42px;
-    margin-left: 20px;
 }
 
 .text {
-    font-style: normal;
+    /* font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 21px;
-    width: 350px;
+    width: 350px; */
     color: #000000;
-    margin-bottom: 10px;
-    
+      
 }
 
 
 
 .footer-bgr{
-        background: #2F303A;
+background-color: #2F303A;
+width: 100%;
 }
 
 .footer{
-    padding: 20px 20px;
+padding: 20px;
     
 }
