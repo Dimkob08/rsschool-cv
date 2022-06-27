@@ -16,7 +16,7 @@
 
   <body>
     <div class="body-container">
-      <header class="header">
+      <header class="header-container">
         <nav class="head">
           <ul class="head-link">
             <li class="link">
@@ -24,8 +24,7 @@
             </li>
             <li class="link">
               <a href="#about-myself"
-                ><span class="header-text">About myself</span></a
-              >
+                ><span class="header-text">About myself</span></a>
             </li>
             <li class="link">
               <a href="#skills"><span class="header-text">Skills</span></a>
@@ -41,21 +40,19 @@
             </li>
             <li class="link">
               <a href="#education"
-                ><span class="header-text">Education</span></a
-              >
+                ><span class="header-text">Education</span></a>
             </li>
             <li class="link">
               <a href="#languages"
-                ><span class="header-text">Languages</span></a
-              >
+                ><span class="header-text">Languages</span></a>
             </li>
           </ul>
         </nav>
       </header>
 
-      <main>
+      <main class="main-container">
         <section class="about">
-          <img src="./img/фото.jpg" alt="photo" width="350" />
+          <img src="./assets/img/фото.jpg" alt="photo" width="350" />
           <div class="name">
             <h1>Dmytro Kobel</h1>
             <p>Junior Front-End Developer</p>
@@ -63,26 +60,29 @@
         </section>
         <div class="main-blocks">
           <div class="block-1">
-            <section id="contacts">
+            <section id="contacts" class="contacts">
               <h2>Contacts</h2>
               <address>
                 <ul>
                   <li class="links">
-                    <span class="main-text">Lutsk, Ukraine</span>
+                    <span class="main-text"><img src="./assets/img/geoloc3.jpg" alt="Github" width="12" height="12"
+                      /></a> Lutsk, Ukraine</span>
                   </li>
                   <li class="links">
-                    <span class="main-text">Email:</span>
+                    <span class="main-text">&#9993 Email:</span>
                     <a href="mailto:dimkob08@gmail.com" class="contact_link"
                       >dimkob08@gmail.com</a
                     >
                   </li>
                   <li class="links">
-                    <span class="main-text">Github:</span>
-                    <a href="https://gist.github.com/Dimkob08">Dimkob08</a>
+                    <span class="main-text"><img src="./assets/img/Git logo.png" alt="Github" width="12" height="12"
+                      /></a> Github:</span>
+                    <a href="https://gist.github.com/Dimkob08" class="contact_link">Dimkob08</a>
                   </li>
                   <li class="links">
-                    <span class="main-text">Discord:</span>
-                    <a href="#">Діма#8461</a>
+                    <span class="main-text"><img src="./assets/img/discord.jpg" alt="Github" width="12" height="12"
+                      /></a> Discord:</span>
+                    <a href="#" class="contact_link">Діма#8461</a>
                   </li>
                 </ul>
               </address>
@@ -115,7 +115,7 @@
 
             <section class="code" id="code">
               <h2>Code</h2>
-              <p class="main-text">The code will be here</p>
+              <code class="main-text">The code will be here</code>
             </section>
           </div>
           <div class="block-3">
@@ -132,12 +132,12 @@
               <h2>Projects</h2>
               <ul>
                 <li class="links">
-                  <a href="https://dmytro-kobel.netlify.app/"
+                  <a class="contact_link" href="https://dmytro-kobel.netlify.app/"
                     ><span class="main-text">marathon GoIT</span></a
                   >
                 </li>
                 <li class="links">
-                  <a href="https://bandero-guss.netlify.app/"
+                  <a class="contact_link" href="https://bandero-guss.netlify.app/"
                     ><span class="main-text">test-drive GoIT</span></a
                   >
                 </li>
@@ -168,9 +168,9 @@
         <div class="footer-block">
           <div class="github">
             <a href="https://github.com/Dimkob08/rsschool-cv">
-              <img src="./img/Git logo.png" alt="Github" width="20" height="20"
+              <img src=".//assets/img/Git logo.png" alt="Github" width="20" height="20"
             /></a>
-            <p class="footer-text">&nbsp;&nbsp;&COPY;2022 by Kobel Dmytro</p>
+            <p class="footer-text">&nbsp;&nbsp;&COPY; 2022 by Kobel Dmytro</p>
           </div>
 
           <div class="rolling-scopes">

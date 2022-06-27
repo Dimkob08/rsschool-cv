@@ -1,5 +1,6 @@
 *{
-    padding: 0 auto;
+    padding: 0;
+    margin: 0;
 }
 
 .body-container {
@@ -11,7 +12,7 @@
     margin: 0 auto;
     }
 
-header{
+.header-container{
     display: flex;
     justify-content: center;
     background-color: #2F303A;
@@ -21,15 +22,18 @@ header{
 
 .head {
     /* display: flex; */
+    padding: 10px 0;
 }
 
 .head-link{
     display: flex;
-
+    flex-direction: row;
 }
 
 .link{
 margin-left: 15px;
+vertical-align: middle;
+text-decoration: none;
 }
 
 ul{
@@ -37,7 +41,6 @@ list-style: none;
 }
 
 .links {
-    
     color: #000000;
 }
 
@@ -47,7 +50,14 @@ list-style: none;
     font-size: 14px;
     line-height: 24px;
     color: #fff;
+    text-decoration: none;
+    
 }
+
+.main-container{
+    padding: 10px 20px;
+}
+    
 
 .about{
     display: flex;
@@ -71,32 +81,51 @@ list-style: none;
 .projects,
 .education,
 .english {
-    width: 300px;
+    /* width: 300px; */
+    height: 170px;
+    padding: 0.1px;
 }
 
 .main-blocks {
+    /* display: flex;
+    justify-content: space-around; */
+
     display: flex;
-    justify-content: space-around;
+        flex-direction: row;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
 }
 
-.block{
-    justify-content: space-around;
-  }
-
 .block-1 {
-    width: 500px;
+    flex-direction: row;
+    /* width: 400px; */
+    width: 45%;
+    display: inline-block;
+   
 }
 
 .block-2 {
-    width: 200px;
+    flex-direction: row;
+    /* width: 200px; */
+    width: 45%;
+    display: inline-block;
+    
+    /* flex-direction: column; */
 }
 
 .block-3 {
-    width: 200px;
+    flex-direction: row;
+    /* width: 200px; */
+    width: 45%;
+    display: inline-block;
 }
 
 .block-4 {
-    width: 300px;
+    flex-direction: row;
+    /* width: 350px; */
+    width: 45%;
+    display: inline-block;
+    
 }
 
 h2{
@@ -106,16 +135,22 @@ h2{
     line-height: 42px;
 }
 
-.main-text {
+.contact_link{
+    text-decoration: none;
+    
+}
+
+.main-text,
+.contact_link {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 21px;
     width: 350px;
     color: #000000;
+    
       
 }
-
 
 
 .footer-bgr{
