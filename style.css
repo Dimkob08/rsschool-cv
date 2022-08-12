@@ -1,51 +1,131 @@
-body {
-    
-        justify-content: space-between;
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body-container {
     font-family: 'Montserrat', sans-serif;
     background-color: #aab7ca;
-}
+    font-weight: 400;
+    line-height: 1.5;
+    max-width: 1280px;
+    margin: 0 auto;
+    }
 
-.header{
-  padding: 10px 0;
-    background: #2F303A;
+.header-container{
     display: flex;
-        justify-content: space-between;
+    justify-content: center;
+    background-color: #2F303A;
+   
+    
 }
 
-.head{
-    
+.head {
+    /* display: flex; */
+    padding: 10px 0;
+}
+
+.head-link{
+    display: flex;
+    flex-direction: row;
 }
 
 .link{
-    margin-bottom: 10px;
-color: #FFFFFF;
+margin-left: 15px;
+vertical-align: middle;
+text-decoration: none;
 }
+
+ul{
+list-style: none;
+}
+
 .links {
-    margin-bottom: 10px;
     color: #000000;
 }
 
-.link-name{
-    margin-bottom: 10px;
+.header-text{
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #fff;
+    text-decoration: none;
+    
 }
 
+.main-container{
+    padding: 10px 20px;
+}
+    
+
 .about{
+    display: flex;
+    justify-content: space-evenly;
     font-weight: 500;
     font-size: 44px;
     line-height: 60px;
     color: black;
-    display: flex;
-    flex-direction: row;
-    width: 1200px;
-    margin-bottom: 10px;
+    margin: 20px 0;
 }
+
 .name {
-    margin-left: 30px;
+ 
+}
+
+.about-myself,
+.contacts,
+.skills,
+.code,
+.courses,
+.projects,
+.education,
+.english {
+    /* width: 300px; */
+    height: 170px;
+    padding: 0.1px;
+}
+
+.main-blocks {
+    /* display: flex;
+    justify-content: space-around; */
+
+    display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+}
+
+.block-1 {
+    flex-direction: row;
+    /* width: 400px; */
+    width: 45%;
+    display: inline-block;
+   
+}
+
+.block-2 {
+    flex-direction: row;
+    /* width: 200px; */
+    width: 45%;
+    display: inline-block;
+    
+    /* flex-direction: column; */
+}
+
+.block-3 {
+    flex-direction: row;
+    /* width: 200px; */
+    width: 45%;
+    display: inline-block;
+}
+
+.block-4 {
+    flex-direction: row;
+    /* width: 350px; */
+    width: 45%;
+    display: inline-block;
+    
 }
 
 h2{
@@ -53,27 +133,53 @@ h2{
     font-weight: 700;
     font-size: 24px;
     line-height: 42px;
-    margin-left: 20px;
 }
 
-.text {
+.contact_link{
+    text-decoration: none;
+    
+}
+
+.main-text,
+.contact_link {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 21px;
     width: 350px;
     color: #000000;
-    margin-bottom: 10px;
     
+      
 }
-
 
 
 .footer-bgr{
-        background: #2F303A;
+background-color: #2F303A;
+width: 100%;
 }
 
-.footer{
-    padding: 20px 20px;
-    
+.footer-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+    padding: 10px 20px;
+ 
+}
+
+.github{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.footer-text{
+    color: white;
+}
+
+.rolling-scopes {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
