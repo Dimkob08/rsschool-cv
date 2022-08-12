@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
@@ -10,14 +10,14 @@
     line-height: 1.5;
     max-width: 1280px;
     margin: 0 auto;
-    }
+}
 
-.header-container{
+.header-container {
     display: flex;
     justify-content: center;
     background-color: #2F303A;
-   
-    
+
+
 }
 
 .head {
@@ -25,41 +25,41 @@
     padding: 10px 0;
 }
 
-.head-link{
+.head-link {
     display: flex;
     flex-direction: row;
 }
 
-.link{
-margin-left: 15px;
-vertical-align: middle;
-text-decoration: none;
+.link {
+    margin-left: 15px;
+    vertical-align: middle;
+    text-decoration: none;
 }
 
-ul{
-list-style: none;
+ul {
+    list-style: none;
 }
 
 .links {
     color: #000000;
 }
 
-.header-text{
+.header-text {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: #fff;
     text-decoration: none;
-    
+
 }
 
-.main-container{
+.main-container {
     padding: 10px 20px;
 }
-    
 
-.about{
+
+.about {
     display: flex;
     justify-content: space-evenly;
     font-weight: 500;
@@ -67,10 +67,6 @@ list-style: none;
     line-height: 60px;
     color: black;
     margin: 20px 0;
-}
-
-.name {
- 
 }
 
 .about-myself,
@@ -91,9 +87,9 @@ list-style: none;
     justify-content: space-around; */
 
     display: flex;
-        flex-direction: row;
-        justify-content:space-evenly;
-        flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .block-1 {
@@ -101,7 +97,7 @@ list-style: none;
     /* width: 400px; */
     width: 45%;
     display: inline-block;
-   
+
 }
 
 .block-2 {
@@ -109,7 +105,7 @@ list-style: none;
     /* width: 200px; */
     width: 45%;
     display: inline-block;
-    
+
     /* flex-direction: column; */
 }
 
@@ -125,19 +121,19 @@ list-style: none;
     /* width: 350px; */
     width: 45%;
     display: inline-block;
-    
+
 }
 
-h2{
+h2 {
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 42px;
 }
 
-.contact_link{
+.contact_link {
     text-decoration: none;
-    
+
 }
 
 .main-text,
@@ -148,33 +144,33 @@ h2{
     line-height: 21px;
     width: 350px;
     color: #000000;
-    
-      
+
+
 }
 
 
-.footer-bgr{
-background-color: #2F303A;
-width: 100%;
+.footer-bgr {
+    background-color: #2F303A;
+    width: 100%;
 }
 
-.footer-block{
+.footer-block {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 40px;
     padding: 10px 20px;
- 
+
 }
 
-.github{
+.github {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     text-decoration: none;
 }
 
-.footer-text{
+.footer-text {
     color: white;
 }
 
